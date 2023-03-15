@@ -770,9 +770,9 @@ __handlers__ = [
 
 """
 __help__ = 
-*NSFW:*
-❂ /addnsfw : Enable NSFW mode
-❂ /rmnsfw : Disable NSFW mode
+*ɴꜰꜱᴡ:*
+❂ /addnsfw : ᴇɴᴀʙʟᴇ ɴꜱꜰᴡ ᴍᴏᴅᴇ
+❂ /rmnsfw : ᴅɪꜱᴀʙʟᴇ ɴꜱꜰᴡ ᴍᴏᴅᴇ
  
 *Available commands:*  
 ❂ /neko: Sends Random SFW Neko source Images.
