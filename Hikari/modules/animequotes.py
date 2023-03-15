@@ -4,9 +4,9 @@ import html
 import random
 import time
 
-from PrimeMega import dispatcher
-from PrimeMega.modules.disable import DisableAbleCommandHandler
-from PrimeMega.modules.helper_funcs.chat_status import (is_user_admin)
+from Hikari import dispatcher
+from Hikari.modules.disable import DisableAbleCommandHandler
+from Hikari.modules.helper_funcs.chat_status import (is_user_admin)
 from telegram.ext import (
   CallbackContext,
   CommandHandler,
