@@ -2,12 +2,12 @@ from os import remove
 
 from pyrogram import filters
 
-from PrimeMega import pbot, arq
-from PrimeMega.utils.errors import capture_err
-from PrimeMega.utils.permissions import adminsOnly
-from PrimeMega.ex_plugins.dbfunctions import is_nsfw_on, nsfw_off, nsfw_on
+from Hikari import pbot, arq
+from Hikari.utils.errors import capture_err
+from Hikari.utils.permissions import adminsOnly
+from Hikari.ex_plugins.dbfunctions import is_nsfw_on, nsfw_off, nsfw_on
 
-__mod_name__ = "Anti-NSFW​"
+__mod_name__ = "ᴀɴᴛɪ ɴꜱꜰᴡ"
 
 
 async def get_file_id_from_message(message):
