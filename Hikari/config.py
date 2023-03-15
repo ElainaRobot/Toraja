@@ -15,6 +15,10 @@ class Config(object):
 
     # Telegraph link of the image which will be shown at start command.
     START_IMG = "https://telegra.ph/file/51c8712f990fd5ab751b8.jpg"
+    
+    ARQ_API = "HWEZFZ-EUKCYS-JWZPAL-VVSKAJ-ARQ"
+
+    ARQ_API_KEY = "HWEZFZ-EUKCYS-JWZPAL-VVSKAJ-ARQ"
 
     SUPPORT_CHAT = "YanzzSupportt"  # Your Telegram support group chat username where your users will go and bother you
 
