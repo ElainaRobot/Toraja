@@ -88,15 +88,15 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="ʙᴀɴᴛᴜᴀɴ", callback_data="rexa_"),
+        InlineKeyboardButton(text="📋 ʙᴀɴᴛᴜᴀɴ", callback_data="rexa_"),
     ],
     [
-        InlineKeyboardButton(text="ᴅᴏɴᴀsɪ", callback_data="fallen_"),
+        InlineKeyboardButton(text="💌 ᴅᴏɴᴀsɪ", callback_data="fallen_"),
         InlineKeyboardButton(text="sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/WynneSupports"),
     ],
     [
-        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="ᴡʏɴɴᴇ ᴘꝛᴏᴊᴇᴄᴛ", callback_data="source_"),
+        InlineKeyboardButton(text="🧸 ᴏᴡɴᴇʀ", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="👨‍💻 ʙᴜᴀᴛ ʙᴏᴛᴍᴜ ᴅɪꜱɪɴɪ", callback_data="source_"),
     ],
 ]
 
@@ -357,8 +357,8 @@ def Rexa_prindapan_callback(update, context):
             reply_markup=InlineKeyboardMarkup( 
                 [
                  [
-                    InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇ", callback_data="help_back"),
-                    InlineKeyboardButton(text="ᴍᴜsɪᴄ", callback_data="kemem_"),
+                    InlineKeyboardButton(text="🤖 ᴍᴀɴᴀɢᴇ", callback_data="help_back"),
+                    InlineKeyboardButton(text="🎧 ᴍᴜsɪᴄ", callback_data="kemem_"),
                  ],
                  [
                     InlineKeyboardButton(text="ᴋᴇᴍʙᴀʟɪ", callback_data="fallen_back"),
@@ -505,12 +505,12 @@ def Kemem_memek_callback(update, context):
             reply_markup=InlineKeyboardMarkup( 
                 [
                  [
-                    InlineKeyboardButton(text="ᴘᴇʀɪɴᴛᴀʜ ᴀᴅᴍɪɴ", callback_data="oplet_"),
-                    InlineKeyboardButton(text="ᴘᴇʀɪɴᴛᴀʜ ᴘʟᴀʏ", callback_data="aku_"),
+                    InlineKeyboardButton(text="🎵 ᴘᴇʀɪɴᴛᴀʜ ᴀᴅᴍɪɴ", callback_data="oplet_"),
+                    InlineKeyboardButton(text="🎼 ᴘᴇʀɪɴᴛᴀʜ ᴘʟᴀʏ", callback_data="aku_"),
                  ],
                  [ 
-                    InlineKeyboardButton(text="ᴘᴇʀɪɴᴛᴀʜ ʙᴏᴛ", callback_data="bebas_"),
-                    InlineKeyboardButton(text="ᴘᴇʀɪɴᴛᴀʜ ᴇxsᴛʀᴀ", callback_data="laer_"),
+                    InlineKeyboardButton(text="🤖 ᴘᴇʀɪɴᴛᴀʜ ʙᴏᴛ", callback_data="bebas_"),
+                    InlineKeyboardButton(text="🎶 ᴘᴇʀɪɴᴛᴀʜ ᴇxᴛʀᴀ", callback_data="laer_"),
                  ],
                  [ 
                     InlineKeyboardButton(text="ᴋᴇᴍʙᴀʟɪ", callback_data="rexa_"), 
@@ -534,8 +534,8 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
             f"\n• *ᴘᴇɴɢɢᴜɴᴀ* » {sql.num_users()}"
             f"\n• *ɢʀᴏᴜᴘ* » {sql.num_chats()}"
             "\n────────────────────"
-            "\n\n• ᴊɪᴋᴀ ᴋᴀʟɪᴀɴ ᴍᴇɴʏᴜᴋᴀɪ ʜɪᴋᴀʀɪ ᴅᴀɴ ɪɴɢɪɴ ʙᴇʀᴋᴏɴᴛʀɪʙᴜsɪ  ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴀɴᴛᴜ ᴀɢᴀʀ ʜɪᴋᴀʀɪ ᴛᴇᴛᴀᴘ ᴀᴋᴛɪғ."
-            "\n\n• ᴋᴀʟɪᴀɴ ʙɪsᴀ ʙᴇʀᴅᴏɴᴀsɪ ᴠɪᴀ ᴅᴀ : 💶 ᴅᴀɴᴀ +6285156822270 ."
+            "\n\n• ᴊɪᴋᴀ ᴋᴀʟɪᴀɴ ᴍᴇɴʏᴜᴋᴀɪ ʜɪᴋᴀʀɪ ᴅᴀɴ ɪɴɢɪɴ ʙᴇʀᴋᴏɴᴛʀɪʙᴜsɪ  ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴀɴᴛᴜ ᴀɢᴀʀ 𝐘𝐚𝐧𝐳𝐳 𝐑𝐨𝐛𝐨𝐭 ᴛᴇᴛᴀᴘ ᴀᴋᴛɪғ."
+            "\n\n• ᴋᴀʟɪᴀɴ ʙɪsᴀ ʙᴇʀᴅᴏɴᴀsɪ ᴠɪᴀ ᴅᴀ : 💶 ᴅᴀɴᴀ +6281211355304 ."
             "\nᴀᴛᴀᴜ ᴋᴀʟɪᴀɴ ʙɪsᴀ ʜᴜʙᴜɴɢɪ ᴏᴡɴᴇʀ ᴅɪʙᴀᴡᴀʜ ɪɴɪ."
             "\n\n• ᴅᴀɴ ᴜɴᴛᴜᴋ ʏᴀɴɢ sᴜᴅᴀʜ ʙᴇʀᴅᴏɴᴀsɪ sᴀʏᴀ ᴜᴄᴀᴘᴋᴀɴ ᴛᴇʀɪᴍᴀᴋᴀsɪʜ ʙᴀɴʏᴀᴋ 🙏.",
             parse_mode=ParseMode.MARKDOWN,
@@ -544,23 +544,23 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="sᴜᴩᴩᴏʀᴛ", callback_data="fallen_support"
+                            text="📌 sᴜᴩᴩᴏʀᴛ", callback_data="fallen_support"
                         ),
                         InlineKeyboardButton(
-                            text="ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_back"
+                            text="📋 ʙᴀɴᴛᴜᴀɴ", callback_data="help_back"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
+                            text="🧸 ᴘᴇᴍɪʟɪᴋ", url=f"tg://user?id={OWNER_ID}"
                         ),
                         InlineKeyboardButton(
-                            text="sᴏᴜʀᴄᴇ",
+                            text="🪪 sᴏᴜʀᴄᴇ",
                             callback_data="source_",
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="◁", callback_data="fallen_back"),
+                        InlineKeyboardButton(text="ᴋᴇᴍʙᴀʟɪ", callback_data="fallen_back"),
                     ],
                 ]
             ),
@@ -575,23 +575,23 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
+                            text="📌 sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
-                            text="ᴜᴩᴅᴀᴛᴇs", url=f"https://t.me/{SUPPORT_CHAT}"
+                            text="🧑🏻‍💻 ʏᴀɴᴢᴢ ᴘꝛᴏᴊᴇᴄᴛ", url=f"https://t.me/YanzzProject/4"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
+                            text="🧸 ᴘᴇᴍɪʟɪᴋ", url=f"tg://user?id={OWNER_ID}"
                         ),
                         InlineKeyboardButton(
-                            text="ɢɪᴛʜᴜʙ",
-                            url="https://github.com/Rexashh",
+                            text="📂 ɢɪᴛʜᴜʙ",
+                            url="https://github.com/YanzzKids",
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="◁", callback_data="fallen_"),
+                        InlineKeyboardButton(text="ᴋᴇᴍʙᴀʟɪ", callback_data="fallen_"),
                     ],
                 ]
             ),
@@ -616,37 +616,40 @@ def Source_about_callback(update: Update, context: CallbackContext):
 𝙅𝘼𝙎𝘼 𝘿𝙀𝙋𝙇𝙊𝙔 𝘽𝙊𝙏 𝙏𝙀𝙇𝙀𝙂𝙍𝘼𝙈
 
 🚀 𝙐𝙎𝙀𝙍𝘽𝙊𝙏 𝙂𝘾𝘼𝙎𝙏 
-[ ʙᴜʟᴀɴᴀɴ ᴜsᴇʀʙᴏᴛ ᴜʟᴛʀᴏɪᴅ ]
+[ ʙᴜʟᴀɴᴀɴ ᴜsᴇʀʙᴏᴛ ᴜʟᴛʀᴏɪᴅ 𝟤𝟢ᴋ/𝟣ʙᴜʟᴀɴ ]
+[ ʙᴜʟᴀɴᴀɴ ᴜsᴇʀʙᴏᴛ ᴜɴᴛᴜᴋ ɪᴅ 𝟧 𝟣𝟧ᴋ/𝟣ʙᴜʟᴀɴ ]
 sɪsᴛᴇᴍ ᴛᴇʀɪᴍᴀ ᴊᴀᴅɪ
 
 🚀 𝘽𝙊𝙏 𝙈𝙐𝙎𝙄𝙆
-[ ᴠᴘs/1ʙᴜʟᴀɴ ] 
-ᴀᴡᴀʟᴀɴ ᴘᴀsᴀɴɢ 
+[ ᴠᴘs 𝟣𝟢𝟢ᴋ/𝟣ʙᴜʟᴀɴ ] 
+ᴀᴡᴀʟᴀɴ ᴘᴀsᴀɴɢ 𝟣𝟧𝟢ᴋ
 sɪsᴛᴇᴍ ᴛᴇʀɪᴍᴀ ᴊᴀᴅɪ
 
 🚀 𝘽𝙊𝙏 𝙈𝙐𝙎𝙄𝙆 & 𝙈𝘼𝙉𝘼𝙂𝙀 
-[ ᴄʟᴏɴᴇ ɢʜ ]
-[ ᴅᴇᴘʟᴏʏ + ʜᴇʀᴏᴋᴜ + ᴠᴘs ] 
+[ ᴄʟᴏɴᴇ ɢʜ 𝟥𝟢ᴋ ]
+[ ᴅᴇᴘʟᴏʏ + ʜᴇʀᴏᴋᴜ + ᴠᴘs 𝟣𝟧𝟢ᴋ/𝟣ʙᴜʟᴀɴ ] 
+ᴀᴡᴀʟᴀɴ ᴘᴀsᴀɴɢ 𝟤𝟢𝟢ᴋ
 sɪsᴛᴇᴍ ᴛᴇʀɪᴍᴀ ᴊᴀᴅɪ
 
 🚀 𝘽𝙊𝙏 𝙈𝘼𝙉𝘼𝙂𝙀
-[ ʜᴇʀᴏᴋᴜ ]
+[ ʜᴇʀᴏᴋᴜ 𝟧𝟢ᴋ/𝟣ʙᴜʟᴀɴ ]
+ᴀᴡᴀʟᴀɴ ᴘᴀsᴀɴɢ 𝟪𝟢ᴋ
 sɪsᴛᴇᴍ ᴛᴇʀɪᴍᴀ ᴊᴀᴅɪ 
 
 ᴄᴀᴛᴀᴛᴀɴ 
 
-1. 𝘼𝙋𝘼𝘽𝙄𝙇𝘼 𝘽𝙊𝙏 𝙔𝘼𝙉𝙂 𝘼𝙉𝘿𝘼 𝙄𝙉𝙂𝙄𝙉𝙆𝘼𝙉 𝙏𝙞𝙙𝙖𝙠 𝙖𝙙𝙖 𝙨𝙞𝙡𝙖𝙝𝙠𝙖𝙣 𝙗𝙚𝙧𝙩𝙖𝙣𝙮𝙖 𝙠𝙚 : [↻˹sʏλ](https://t.me/rissaaaw)
+1. ᴀᴘᴀʙɪʟᴀ ʙᴏᴛ ʏᴀɴɢ ᴀɴᴅᴀ ɪɴɢɪɴᴋᴀɴ ᴛɪᴅᴀᴋ ᴀᴅᴀ ꜱɪʟᴀʜᴋᴀɴ ʙᴇʀᴛᴀɴʏᴀ ᴋᴇ : [ʏᴀɴᴢᴢ](tg://user?id=1141626067)
 
 2. ᴄᴀᴛᴀᴛᴀɴ ʜᴇʀᴏᴋᴜ ʀᴀᴡᴀɴ sᴜsᴘᴇɴ ᴊᴀᴅɪ sᴀʏᴀ ᴅᴇᴘʟᴏʏ ᴅɪ ᴠᴘs
 
-3. sɪʟᴀʜᴋᴀɴ ʜᴜʙᴜɴɢɪ [↻˹sʏλ](http://t.me/rissaaaw) ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ / ᴍᴇɴᴀɴʏᴀᴋᴀɴ ᴄᴏɴᴛᴏʜ ʙᴏᴛ
+3. sɪʟᴀʜᴋᴀɴ ʜᴜʙᴜɴɢɪ 🧑🏻‍💻[ʏᴀɴᴢᴢ](tg://user?id=1141626067) ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ / ᴍᴇɴᴀɴʏᴀᴋᴀɴ ᴄᴏɴᴛᴏʜ ʙᴏᴛ
 
 𝗦𝗘𝗞𝗜𝗔𝗡 𝗧𝗘𝗥𝗜𝗠𝗔 𝗞𝗔𝗦𝗜𝗛 𝗕𝗔𝗡𝗬𝗔𝗞 🙏
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="◁", callback_data="source_back")]]
+                [[InlineKeyboardButton(text="ᴋᴇᴍʙᴀʟɪ", callback_data="source_back")]]
             ),
         )
     elif query.data == "source_back":
@@ -675,7 +678,7 @@ def get_help(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="ʜᴇʟᴘ",
+                                text="📋 ʙᴀɴᴛᴜᴀɴ",
                                 url="https://t.me/{}?start=ghelp_{}".format(
                                     context.bot.username, module
                                 ),
@@ -720,7 +723,7 @@ def get_help(update: Update, context: CallbackContext):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="◁", callback_data="help_back")]]
+                [[InlineKeyboardButton(text="ᴋᴇᴍʙᴀʟɪ", callback_data="help_back")]]
             ),
         )
 
@@ -737,14 +740,14 @@ def send_settings(chat_id, user_id, user=False):
             )
             dispatcher.bot.send_message(
                 user_id,
-                "Ini adalah pengaturan Anda saat ini:" + "\n\n" + settings,
+                "ɪɴɪ ᴀᴅᴀʟᴀʜ ᴘᴇɴɢᴀᴛᴜʀᴀɴ ᴀɴᴅᴀ ꜱᴀᴀᴛ ɪɴɪ:" + "\n\n" + settings,
                 parse_mode=ParseMode.MARKDOWN,
             )
 
         else:
             dispatcher.bot.send_message(
                 user_id,
-                "Sepertinya tidak ada pengaturan khusus pengguna yang tersedia :'(",
+                "ꜱᴇᴘᴇʀᴛɪɴʏᴀ ᴛɪᴅᴀᴋ ᴀᴅᴀ ᴘᴇɴɢᴀᴛᴜʀᴀɴ ᴋʜᴜꜱᴜꜱ ᴘᴇɴɢɢᴜɴᴀ ʏᴀɴɢ ᴛᴇʀꜱᴇᴅɪᴀ :'(",
                 parse_mode=ParseMode.MARKDOWN,
             )
 
@@ -753,7 +756,7 @@ def send_settings(chat_id, user_id, user=False):
             chat_name = dispatcher.bot.getChat(chat_id).title
             dispatcher.bot.send_message(
                 user_id,
-                text="Modul mana yang ingin Anda periksa setelan {}?".format(
+                text="ᴍᴏᴅᴜʟ ᴍᴀɴᴀ ʏᴀɴɢ ɪɴɢɪɴ ᴀɴᴅᴀ ᴘᴇʀɪᴋꜱᴀ ꜱᴇᴛᴇʟᴀɴ {}?".format(
                     chat_name
                 ),
                 reply_markup=InlineKeyboardMarkup(
@@ -763,8 +766,8 @@ def send_settings(chat_id, user_id, user=False):
         else:
             dispatcher.bot.send_message(
                 user_id,
-                "Sepertinya tidak ada setelan obrolan yang tersedia :'(\nKirim ini "
-                "dalam obrolan grup tempat Anda menjadi admin untuk menemukan pengaturannya saat ini!",
+                "ꜱᴇᴘᴇʀᴛɪɴʏᴀ ᴛɪᴅᴀᴋ ᴀᴅᴀ ꜱᴇᴛᴇʟᴀɴ ᴏʙʀᴏʟᴀɴ ʏᴀɴɢ ᴛᴇʀꜱᴇᴅɪᴀ :'(\nᴋɪʀɪᴍ ɪɴɪ "
+                "ᴅᴀʟᴀᴍ ᴏʙʀᴏʟᴀɴ ɢʀᴜᴘ ᴛᴇᴍᴘᴀᴛ ᴀɴᴅᴀ ᴍᴇɴᴊᴀᴅɪ ᴀᴅᴍɪɴ ᴜɴᴛᴜᴋ ᴍᴇɴᴇᴍᴜᴋᴀɴ ᴘᴇɴɢᴀᴛᴜʀᴀɴɴʏᴀ ꜱᴀᴀᴛ ɪɴɪ!",
                 parse_mode=ParseMode.MARKDOWN,
             )
 
@@ -783,7 +786,7 @@ def settings_button(update: Update, context: CallbackContext):
             chat_id = mod_match.group(1)
             module = mod_match.group(2)
             chat = bot.get_chat(chat_id)
-            text = "*{}* memiliki pengaturan berikut untuk *{}* module:\n\n".format(
+            text = "*{}* ᴍᴇᴍɪʟɪᴋɪ ᴘᴇɴɢᴀᴛᴜʀᴀɴ ʙᴇʀɪᴋᴜᴛ ᴜɴᴛᴜᴋ *{}* ᴍᴏᴅᴜʟᴇ:\n\n".format(
                 escape_markdown(chat.title), CHAT_SETTINGS[module].__mod_name__
             ) + CHAT_SETTINGS[module].__chat_settings__(chat_id, user.id)
             query.message.reply_text(
@@ -793,7 +796,7 @@ def settings_button(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="◁",
+                                text="ᴋᴇᴍʙᴀʟɪ",
                                 callback_data="stngs_back({})".format(chat_id),
                             )
                         ]
@@ -806,8 +809,8 @@ def settings_button(update: Update, context: CallbackContext):
             curr_page = int(prev_match.group(2))
             chat = bot.get_chat(chat_id)
             query.message.reply_text(
-                "Hai, yang di sana! Ada beberapa pengaturan untuk {} - lanjutkan dan pilih apa "
-                "yang membuat mu tertarik.".format(chat.title),
+                "ʜᴀɪ, ʏᴀɴɢ ᴅɪ ꜱᴀɴᴀ! ᴀᴅᴀ ʙᴇʙᴇʀᴀᴘᴀ ᴘᴇɴɢᴀᴛᴜʀᴀɴ ᴜɴᴛᴜᴋ {} - ʟᴀɴᴊᴜᴛᴋᴀɴ ᴅᴀɴ ᴘɪʟɪʜ ᴀᴘᴀ "
+                "ʏᴀɴɢ ᴍᴇᴍʙᴜᴀᴛ ᴍᴜ ᴛᴇʀᴛᴀʀɪᴋ.".format(chat.title),
                 reply_markup=InlineKeyboardMarkup(
                     paginate_modules(
                         curr_page - 1, CHAT_SETTINGS, "stngs", chat=chat_id
@@ -820,8 +823,8 @@ def settings_button(update: Update, context: CallbackContext):
             next_page = int(next_match.group(2))
             chat = bot.get_chat(chat_id)
             query.message.reply_text(
-                "Hai, yang di sana! Ada beberapa setelan untuk {} - lanjutkan dan pilih apa "
-                "yang membuat mu tertarik.".format(chat.title),
+                "ʜᴀɪ, ʏᴀɴɢ ᴅɪ ꜱᴀɴᴀ! ᴀᴅᴀ ʙᴇʙᴇʀᴀᴘᴀ ᴘᴇɴɢᴀᴛᴜʀᴀɴ ᴜɴᴛᴜᴋ {} - ʟᴀɴᴊᴜᴛᴋᴀɴ ᴅᴀɴ ᴘɪʟɪʜ ᴀᴘᴀ "
+                "ʏᴀɴɢ ᴍᴇᴍʙᴜᴀᴛ ᴍᴜ ᴛᴇʀᴛᴀʀɪᴋ.".format(chat.title),
                 reply_markup=InlineKeyboardMarkup(
                     paginate_modules(
                         next_page + 1, CHAT_SETTINGS, "stngs", chat=chat_id
@@ -833,8 +836,8 @@ def settings_button(update: Update, context: CallbackContext):
             chat_id = back_match.group(1)
             chat = bot.get_chat(chat_id)
             query.message.reply_text(
-                text="Hi there! There are quite a few settings for {} - go ahead and pick what "
-                "you're interested in.".format(escape_markdown(chat.title)),
+                text="ʜᴀɪ, ʏᴀɴɢ ᴅɪ ꜱᴀɴᴀ! ᴀᴅᴀ ʙᴇʙᴇʀᴀᴘᴀ ᴘᴇɴɢᴀᴛᴜʀᴀɴ ᴜɴᴛᴜᴋ {} - ʟᴀɴᴊᴜᴛᴋᴀɴ ᴅᴀɴ ᴘɪʟɪʜ ᴀᴘᴀ "
+                "ʏᴀɴɢ ᴍᴇᴍʙᴜᴀᴛ ᴍᴜ ᴛᴇʀᴛᴀʀɪᴋ.".format(escape_markdown(chat.title)),
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=InlineKeyboardMarkup(
                     paginate_modules(0, CHAT_SETTINGS, "stngs", chat=chat_id)
@@ -862,14 +865,14 @@ def get_settings(update: Update, context: CallbackContext):
     # ONLY send settings in PM
     if chat.type != chat.PRIVATE:
         if is_user_admin(chat, user.id):
-            text = "Click here to get this chat's settings, as well as yours."
+            text = "ᴋʟɪᴋ ᴅɪ ꜱɪɴɪ ᴜɴᴛᴜᴋ ᴍᴇɴᴅᴀᴘᴀᴛᴋᴀɴ ꜱᴇᴛᴇʟᴀɴ ᴏʙʀᴏʟᴀɴ ɪɴɪ, ꜱᴇʀᴛᴀ ᴍɪʟɪᴋ ᴀɴᴅᴀ."
             msg.reply_text(
                 text,
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton(
-                                text="sᴇᴛᴛɪɴɢs",
+                                text="⚙️ sᴇᴛᴛɪɴɢs",
                                 url="t.me/{}?start=stngs_{}".format(
                                     context.bot.username, chat.id
                                 ),
@@ -879,7 +882,7 @@ def get_settings(update: Update, context: CallbackContext):
                 ),
             )
         else:
-            text = "Click here to check your settings."
+            text = "ᴋʟɪᴋ ᴅɪ ꜱɪɴɪ ᴜɴᴛᴜᴋ ᴍᴇᴍᴇʀɪᴋꜱᴀ ꜱᴇᴛᴇʟᴀɴ ᴀɴᴅᴀ."
 
     else:
         send_settings(chat.id, user.id, True)
@@ -896,11 +899,11 @@ def migrate_chats(update: Update, context: CallbackContext):
     else:
         return
 
-    LOGGER.info("Migrating from %s, to %s", str(old_chat), str(new_chat))
+    LOGGER.info("ᴍɪɢʀᴀᴛɪɴɢ ꜰʀᴏᴍ %s, to %s", str(old_chat), str(new_chat))
     for mod in MIGRATEABLE:
         mod.__migrate__(old_chat, new_chat)
 
-    LOGGER.info("Successfully migrated!")
+    LOGGER.info("ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴍɪɢʀᴀᴛᴇᴅ!")
     raise DispatcherHandlerStop
 
 
@@ -922,7 +925,7 @@ def main():
             )
         except Unauthorized:
             LOGGER.warning(
-                f"Bot isn't able to send message to @{SUPPORT_CHAT}, go and check!"
+                f"ʙᴏᴛ ᴛɪᴅᴀᴋ ᴅᴀᴘᴀᴛ ᴍᴇɴɢɪʀɪᴍ ᴘᴇꜱᴀɴ ᴋᴇ @{SUPPORT_CHAT}, ᴘᴇʀɢɪ ᴅᴀɴ ᴘᴇʀɪᴋꜱᴀ!"
             )
         except BadRequest as e:
             LOGGER.warning(e.message)
