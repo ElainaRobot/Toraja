@@ -5,8 +5,8 @@ import textwrap
 import bs4
 import jikanpy
 import requests
-from PrimeMega import DEV_USERS, OWNER_ID, DRAGONS, dispatcher
-from PrimeMega.modules.disable import DisableAbleCommandHandler
+from Hikari import DEV_USERS, OWNER_ID, DRAGONS, dispatcher
+from Hikari.modules.disable import DisableAbleCommandHandler
 from telegram import (InlineKeyboardButton, InlineKeyboardMarkup, ParseMode,
                       Update)
 from telegram.ext import CallbackContext, CallbackQueryHandler
@@ -552,8 +552,8 @@ def kayo(update: Update, context: CallbackContext):
 
 
 __help__ = """
- ──「 Anime search 」──                           
-❂ /anime <anime>: returns information about the anime.
+ ──「 ᴀɴɪᴍᴇ ꜱᴇᴀʀᴄʜ 」──                           
+❂ /anime <anime>: ʀᴇᴛᴜʀɴꜱ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴛʜᴇ ᴀɴɪᴍᴇ.
 ❂ /whatanime: returns source of anime when replied to photo or gif.                                                          
 ❂ /character <character>: returns information about the character.
 ❂ /manga <manga>: returns information about the manga.
@@ -564,7 +564,7 @@ __help__ = """
 ❂ /kaizoku <anime>: search an anime on animekaizoku.com
 ❂ /kayo <anime>: search an anime on animekayo.com
 
- 「 Anime Quotes 」
+ 「 ᴀɴɪᴍᴇ Qᴜᴏᴛᴇꜱ 」
 ❂ /animequotes: for anime quotes randomly as photos.
 ❂ /quote: send quotes randomly as text
  """
@@ -589,7 +589,7 @@ dispatcher.add_handler(KAIZOKU_SEARCH_HANDLER)
 dispatcher.add_handler(KAYO_SEARCH_HANDLER)
 dispatcher.add_handler(UPCOMING_HANDLER)
 
-__mod_name__ = "Anime"
+__mod_name__ = "ᴀɴɪᴍᴇ"
 __command_list__ = [
     "anime", "manga", "character", "user", "upcoming", "kaizoku", "airing",
     "kayo"
