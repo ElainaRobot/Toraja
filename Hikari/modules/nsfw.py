@@ -4,14 +4,14 @@ import nekos
 import requests
 from PIL import Image
 from telegram import ParseMode
-from PrimeMega import dispatcher, updater
-import PrimeMega.modules.sql.nsfw_sql as sql
-from PrimeMega.modules.log_channel import gloggable
+from Hikari import dispatcher, updater
+import Hikari.modules.sql.nsfw_sql as sql
+from Hikari.modules.log_channel import gloggable
 from telegram import Message, Chat, Update, Bot, MessageEntity
 from telegram.error import BadRequest, RetryAfter, Unauthorized
 from telegram.ext import CommandHandler, run_async, CallbackContext
-from PrimeMega.modules.helper_funcs.filters import CustomFilters
-from PrimeMega.modules.helper_funcs.chat_status import user_admin
+from Hikari.modules.helper_funcs.filters import CustomFilters
+from Hikari.modules.helper_funcs.chat_status import user_admin
 from telegram.utils.helpers import mention_html, mention_markdown, escape_markdown
 
 @user_admin
