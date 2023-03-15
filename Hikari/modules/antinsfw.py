@@ -5,7 +5,7 @@ from pyrogram import filters
 from Hikari import pbot, arq
 from Hikari.utils.errors import capture_err
 from Hikari.utils.permissions import adminsOnly
-from Hikari.ex_plugins.dbfunctions import is_nsfw_on, nsfw_off, nsfw_on
+from Hikari.utils.dbfunctions import is_nsfw_on, nsfw_off, nsfw_on
 
 __mod_name__ = "ᴀɴᴛɪ ɴꜱꜰᴡ"
 
