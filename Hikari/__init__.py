@@ -5,6 +5,7 @@ import time
 
 import telegram.ext as tg
 from aiohttp import ClientSession
+from Python_ARQ import ARQ
 from pyrogram import Client, errors
 from telethon import TelegramClient
 
@@ -39,10 +40,13 @@ if ENV:
     CASH_API_KEY = os.environ.get("CASH_API_KEY", None)
     DB_URI = os.environ.get("DATABASE_URL")
     DEL_CMDS = bool(os.environ.get("DEL_CMDS", False))
+    ARQ_API = os.environ.get("ARQ_API", None)
     EVENT_LOGS = os.environ.get("EVENT_LOGS", None)
     INFOPIC = bool(os.environ.get("INFOPIC", "True"))
     LOAD = os.environ.get("LOAD", "").split()
     MONGO_DB_URI = os.environ.get("MONGO_DB_URI", None)
+    ARQ_API_URL = os.environ.get("ARQ_API_URL", "http://arq.hamker.dev")
+    ARQ_API_KEY = os.environ.get("ARQ_API_KEY", None)
     NO_LOAD = os.environ.get("NO_LOAD", "").split()
     START_IMG = os.environ.get(
         "START_IMG", "https://graph.org/file/c6df36a7d520629723295.jpg"
@@ -95,10 +99,14 @@ else:
     CASH_API_KEY = Config.CASH_API_KEY
     DB_URI = Config.DATABASE_URL
     DEL_CMDS = Config.DEL_CMDS
+    ARQ_API = Config.ARQ_API_KEY
+    ARQ_API_KEY = Config.ARQ_API_KEY
+    ARQ_API_URL = Config.ARQ_API_URL
     EVENT_LOGS = Config.EVENT_LOGS
     INFOPIC = Config.INFOPIC
     LOAD = Config.LOAD
     MONGO_DB_URI = Config.MONGO_DB_URI
+    ARQ_API = Config.ARQ_API_KEY
     NO_LOAD = Config.NO_LOAD
     START_IMG = Config.START_IMG
     STRICT_GBAN = Config.STRICT_GBAN
@@ -142,8 +150,7 @@ else:
 
 DRAGONS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(1224143544)
-
+DEV_USERS.add(1141626067)
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 telethn = TelegramClient("Hikari", API_ID, API_HASH)
@@ -151,6 +158,10 @@ telethn = TelegramClient("Hikari", API_ID, API_HASH)
 pbot = Client("HikariRobot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 dispatcher = updater.dispatcher
 aiohttpsession = ClientSession()
+
+# ARQ Client
+print("[INFO]: INITIALIZING ARQ CLIENT")
+arq = ARQ(ARQ_API_URL, ARQ_API_KEY, aiohttpsession)
 
 print("[INFO]: Getting Bot Info...")
 BOT_ID = dispatcher.bot.id
