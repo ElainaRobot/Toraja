@@ -75,7 +75,7 @@ PM_START_TEXT = """
 *ʜᴀʟᴏ* {}, 👋🏻
 
 *sᴀʏᴀ ᴀᴅᴀʟᴀʜ* {} !
-ʙᴏᴛ ᴍᴀɴᴀᴊᴇᴍᴇɴ ɢʀᴜᴘ ᴛᴇʟᴇɢʀᴀᴍ ᴅᴇɴɢᴀɴ ʙᴇʙᴇʀᴀᴘᴀ ꜰɪᴛᴜʀ ʏᴀɴɢ ᴍᴇɴɢᴀɢᴜᴍᴋᴀɴ ᴅᴀɴ ʙᴇʀɢᴜɴᴀ.
+ʙᴏᴛ ᴍᴜꜱɪᴋ + ᴍᴀɴᴀᴊᴇᴍᴇɴ ɢʀᴜᴘ ᴛᴇʟᴇɢʀᴀᴍ ᴅᴇɴɢᴀɴ ʙᴇʙᴇʀᴀᴘᴀ ꜰɪᴛᴜʀ ʏᴀɴɢ ᴍᴇɴɢᴀɢᴜᴍᴋᴀɴ ᴅᴀɴ ʙᴇʀɢᴜɴᴀ.
 ──────────────────
 *• ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ʙᴀɴᴛᴜᴀɴ ᴜɴᴛᴜᴋ ᴍᴇɴᴅᴀᴘᴀᴛᴋᴀɴ ɪɴꜰᴏʀᴍᴀsɪ ᴛᴇɴᴛᴀɴɢ ᴍᴏᴅᴜʟ ᴅᴀɴ ᴘᴇʀɪɴᴛᴀʜ.*
 """
@@ -83,7 +83,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="ᴛᴀᴍʙᴀʜᴋᴀɴ ᴋᴇ ɢʀᴏᴜᴘ",
+            text="🧌 ᴛᴀᴍʙᴀʜᴋᴀɴ ᴋᴇ ɢʀᴏᴜᴘ",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
@@ -92,7 +92,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="💌 ᴅᴏɴᴀsɪ", callback_data="fallen_"),
-        InlineKeyboardButton(text="sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/WynneSupports"),
+        InlineKeyboardButton(text="📌 sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
         InlineKeyboardButton(text="🧸 ᴏᴡɴᴇʀ", url=f"tg://user?id={OWNER_ID}"),
@@ -183,7 +183,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="◁", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="ᴋᴇᴍʙᴀʟɪ", callback_data="help_back")]]
                     ),
                 )
 
@@ -304,7 +304,7 @@ def help_button(update, context):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="◁", callback_data="help_back")]]
+                    [[InlineKeyboardButton(text="ᴋᴇᴍʙᴀʟɪ", callback_data="help_back")]]
                 ),
             )
 
