@@ -7,7 +7,7 @@ from Hikari.utils.errors import capture_err
 from Hikari.utils.permissions import adminsOnly
 from Hikari.utils.dbfunctions import is_nsfw_on, nsfw_off, nsfw_on
 
-__mod_name__ = "ᴀɴᴛɪ ɴꜱꜰᴡ"
+__mod_name__ = "Anti-NSFW"
 
 
 async def get_file_id_from_message(message):
