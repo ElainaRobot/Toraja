@@ -531,7 +531,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
             f"\n*➻ ᴘᴇɴɢɢᴜɴᴀ* » {sql.num_users()}"
             f"\n*➻ ɢʀᴏᴜᴘ* » {sql.num_chats()}"
             "\n────────────────────"
-            "\n\nᴊɪᴋᴀ ᴋᴀʟɪᴀɴ ᴍᴇɴʏᴜᴋᴀɪ [𝐘𝐚𝐧𝐳𝐳 𝐑𝐨𝐛𝐨𝐭](https://t.me/KenzzTapiBot) ᴅᴀɴ ɪɴɢɪɴ ʙᴇʀᴋᴏɴᴛʀɪʙᴜsɪ  ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴀɴᴛᴜ ᴀɢᴀʀ [𝐘𝐚𝐧𝐳𝐳 𝐑𝐨𝐛𝐨𝐭](https://t.me/KenzzTapiBot) ᴛᴇᴛᴀᴘ ᴀᴋᴛɪғ."
+            "\n\nᴊɪᴋᴀ ᴋᴀʟɪᴀɴ ᴍᴇɴʏᴜᴋᴀɪ [𝐊𝐞𝐧𝐳𝐳 𝐑𝐨𝐛𝐨𝐭](https://t.me/KenzzTapiBot) ᴅᴀɴ ɪɴɢɪɴ ʙᴇʀᴋᴏɴᴛʀɪʙᴜsɪ  ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴀɴᴛᴜ ᴀɢᴀʀ [𝐊𝐞𝐧𝐳𝐳 𝐑𝐨𝐛𝐨𝐭](https://t.me/KenzzTapiBot) ᴛᴇᴛᴀᴘ ᴀᴋᴛɪғ."
             "\nᴋᴀʟɪᴀɴ ʙɪsᴀ ʙᴇʀᴅᴏɴᴀsɪ : 💶 [ᴅᴀɴᴀ](https://link.dana.id/qr/8fn9tvy) ."
             "\nᴀᴛᴀᴜ ᴋᴀʟɪᴀɴ ʙɪsᴀ ʜᴜʙᴜɴɢɪ ᴏᴡɴᴇʀ ᴅɪʙᴀᴡᴀʜ ɪɴɪ."
             f"\n\nᴅᴀɴ ᴜɴᴛᴜᴋ ʏᴀɴɢ sᴜᴅᴀʜ ʙᴇʀᴅᴏɴᴀsɪ sᴀʏᴀ ᴜᴄᴀᴘᴋᴀɴ ᴛᴇʀɪᴍᴀᴋᴀsɪʜ ʙᴀɴʏᴀᴋ 🙏.",
