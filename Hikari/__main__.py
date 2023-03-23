@@ -583,7 +583,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                         ),
                         InlineKeyboardButton(
                             text="🛍 ᴋᴇɴᴢᴢ ꜱᴛᴏꝛᴇ",
-                            url="https://t.me/KenzzStore",
+                            url="https://t.me/KenzzTapiStore",
                         ),
                     ],
                     [
