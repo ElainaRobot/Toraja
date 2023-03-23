@@ -9,7 +9,7 @@ class Config(object):
 
     DATABASE_URL = "postgresql://dwykrhhe:snAGRjL9CAfcwOZAvRqVoGFYSJ9LbbJc@tiny.db.elephantsql.com/dwykrhhe"  # A sql database url from elephantsql.com
 
-    EVENT_LOGS = (-1001832806148)  # Event logs channel to note down important bot level events
+    EVENT_LOGS = (-1001922247598)  # Event logs channel to note down important bot level events
 
     MONGO_DB_URI = "mongodb+srv://Botmusickenz:Fian99kofer@cluster0.2gjgwft.mongodb.net/?retryWrites=true&w=majority"  # Get ths value from cloud.mongodb.com
 
@@ -24,7 +24,7 @@ class Config(object):
 
     SUPPORT_CHAT = "KenzzSupport"  # Your Telegram support group chat username where your users will go and bother you
 
-    TOKEN = "6284634324:AAHZ_pd9JnKctCY7Nc8sTqBG39YKXQz3r5Y"  # Get bot token from @BotFather on Telegram
+    TOKEN = "5614679023:AAGVV1kI9rMpQXQxRznlreZs0zImFGypAIM"  # Get bot token from @BotFather on Telegram
 
     TIME_API_KEY = "7WMA3YLV6OEB"  # Get this value from https://timezonedb.com/api
 
