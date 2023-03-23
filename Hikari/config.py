@@ -14,7 +14,7 @@ class Config(object):
     MONGO_DB_URI = "mongodb+srv://Botmusickenz:Fian99kofer@cluster0.2gjgwft.mongodb.net/?retryWrites=true&w=majority"  # Get ths value from cloud.mongodb.com
 
     # Telegraph link of the image which will be shown at start command.
-    START_IMG = "https://telegra.ph/file/51c8712f990fd5ab751b8.jpg"
+    START_IMG = "https://te.legra.ph/file/a18d00f0a91e6e61f8b03.jpg"
     
     ARQ_API_URL = "http://arq.hamker.dev"
     
@@ -24,7 +24,7 @@ class Config(object):
 
     SUPPORT_CHAT = "KenzzSupport"  # Your Telegram support group chat username where your users will go and bother you
 
-    TOKEN = "5614679023:AAGVV1kI9rMpQXQxRznlreZs0zImFGypAIM"  # Get bot token from @BotFather on Telegram
+    TOKEN = "6284634324:AAHZ_pd9JnKctCY7Nc8sTqBG39YKXQz3r5Y"  # Get bot token from @BotFather on Telegram
 
     TIME_API_KEY = "7WMA3YLV6OEB"  # Get this value from https://timezonedb.com/api
 
