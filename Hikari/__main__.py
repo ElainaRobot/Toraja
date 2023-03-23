@@ -72,8 +72,8 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
+(https://te.legra.ph/file/a18d00f0a91e6e61f8b03.jpg)
 *ʜᴀʟᴏ* {}, 👋🏻
-
 *sᴀʏᴀ ᴀᴅᴀʟᴀʜ* {} !
 ʙᴏᴛ ᴍᴜꜱɪᴋ + ᴍᴀɴᴀᴊᴇᴍᴇɴ ɢʀᴜᴘ ᴛᴇʟᴇɢʀᴀᴍ ᴅᴇɴɢᴀɴ ʙᴇʙᴇʀᴀᴘᴀ ꜰɪᴛᴜʀ ʏᴀɴɢ ᴍᴇɴɢᴀɢᴜᴍᴋᴀɴ ᴅᴀɴ ʙᴇʀɢᴜɴᴀ.
 ──────────────────
@@ -526,7 +526,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
     if query.data == "fallen_":
         uptime = get_readable_time((time.time() - StartTime))
         query.message.edit_text(
-            text=f"*ʜᴀʟᴏ,*👋\n  *sᴀʏᴀ {BOT_NAME}*"
+            text=f"*ʜᴀʟᴏ,*👋\n *sᴀʏᴀ {BOT_NAME}*"
             "\n*ʙᴏᴛ ᴍᴀɴᴀᴊᴇᴍᴇɴ ɢʀᴜᴘ ʏᴀɴɢ ᴅᴀᴘᴀᴛ ᴍᴇᴍᴜᴛᴀʀ ᴍᴜsɪᴋ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴀɴᴛᴜ ᴀɴᴅᴀ ᴍᴇɴɢᴇʟᴏʟᴀ ɢʀᴜᴘ ᴀɴᴅᴀ ᴅᴇɴɢᴀɴ ᴍᴜᴅᴀʜ ᴅᴀɴ ᴜɴᴛᴜᴋ ᴍᴇʟɪɴᴅᴜɴɢɪ ɢʀᴜᴘ ᴀɴᴅᴀ ᴅᴀʀɪ sᴄᴀᴍᴍᴇʀ ᴅᴀɴ sᴘᴀᴍᴍᴇʀ.*"
             "\n*ᴅɪʙᴜᴀᴛ ᴅᴇɴɢᴀɴ ♥️  .*"
             "\n\n────────────────────"
@@ -534,10 +534,10 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
             f"\n*➻ ᴘᴇɴɢɢᴜɴᴀ* » {sql.num_users()}"
             f"\n*➻ ɢʀᴏᴜᴘ* » {sql.num_chats()}"
             "\n────────────────────"
-            "\n\nᴊɪᴋᴀ ᴋᴀʟɪᴀɴ ᴍᴇɴʏᴜᴋᴀɪ 𝐘𝐚𝐧𝐳𝐳 𝐑𝐨𝐛𝐨𝐭 ᴅᴀɴ ɪɴɢɪɴ ʙᴇʀᴋᴏɴᴛʀɪʙᴜsɪ  ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴀɴᴛᴜ ᴀɢᴀʀ 𝐘𝐚𝐧𝐳𝐳 𝐑𝐨𝐛𝐨𝐭 ᴛᴇᴛᴀᴘ ᴀᴋᴛɪғ."
-            "\nᴋᴀʟɪᴀɴ ʙɪsᴀ ʙᴇʀᴅᴏɴᴀsɪ ᴠɪᴀ ᴅᴀ : 💶 ᴅᴀɴᴀ +6281211355304 ."
+            "\n\nᴊɪᴋᴀ ᴋᴀʟɪᴀɴ ᴍᴇɴʏᴜᴋᴀɪ [𝐘𝐚𝐧𝐳𝐳 𝐑𝐨𝐛𝐨𝐭](https://t.me/KenzzTapiBot) ᴅᴀɴ ɪɴɢɪɴ ʙᴇʀᴋᴏɴᴛʀɪʙᴜsɪ  ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴀɴᴛᴜ ᴀɢᴀʀ [𝐘𝐚𝐧𝐳𝐳 𝐑𝐨𝐛𝐨𝐭](https://t.me/KenzzTapiBot) ᴛᴇᴛᴀᴘ ᴀᴋᴛɪғ."
+            "\nᴋᴀʟɪᴀɴ ʙɪsᴀ ʙᴇʀᴅᴏɴᴀsɪ : 💶 [ᴅᴀɴᴀ](https://link.dana.id/qr/8fn9tvy) ."
             "\nᴀᴛᴀᴜ ᴋᴀʟɪᴀɴ ʙɪsᴀ ʜᴜʙᴜɴɢɪ ᴏᴡɴᴇʀ ᴅɪʙᴀᴡᴀʜ ɪɴɪ."
-            f"\n\n• ᴅᴀɴ ᴜɴᴛᴜᴋ ʏᴀɴɢ sᴜᴅᴀʜ ʙᴇʀᴅᴏɴᴀsɪ sᴀʏᴀ ᴜᴄᴀᴘᴋᴀɴ ᴛᴇʀɪᴍᴀᴋᴀsɪʜ ʙᴀɴʏᴀᴋ 🙏.",
+            f"\n\nᴅᴀɴ ᴜɴᴛᴜᴋ ʏᴀɴɢ sᴜᴅᴀʜ ʙᴇʀᴅᴏɴᴀsɪ sᴀʏᴀ ᴜᴄᴀᴘᴋᴀɴ ᴛᴇʀɪᴍᴀᴋᴀsɪʜ ʙᴀɴʏᴀᴋ 🙏.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -577,7 +577,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                             text="📌 sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
-                            text="🧑🏻‍💻 ʏᴀɴᴢᴢ ᴘꝛᴏᴊᴇᴄᴛ", url=f"https://t.me/YanzzProject/4"
+                            text="🧑🏻‍💻 ᴋᴇɴᴢᴢ ᴘꝛᴏᴊᴇᴄᴛ", url=f"https://t.me/KenzzProject/4"
                         ),
                     ],
                     [
@@ -585,8 +585,8 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                             text="🧸 ᴘᴇᴍɪʟɪᴋ", url=f"tg://user?id={OWNER_ID}"
                         ),
                         InlineKeyboardButton(
-                            text="📂 ɢɪᴛʜᴜʙ",
-                            url="https://github.com/YanzzKids",
+                            text="🛍 ᴋᴇɴᴢᴢ ꜱᴛᴏꝛᴇ",
+                            url="https://t.me/KenzzStore",
                         ),
                     ],
                     [
@@ -637,11 +637,11 @@ sɪsᴛᴇᴍ ᴛᴇʀɪᴍᴀ ᴊᴀᴅɪ
 
 ᴄᴀᴛᴀᴛᴀɴ 
 
-1. ᴀᴘᴀʙɪʟᴀ ʙᴏᴛ ʏᴀɴɢ ᴀɴᴅᴀ ɪɴɢɪɴᴋᴀɴ ᴛɪᴅᴀᴋ ᴀᴅᴀ ꜱɪʟᴀʜᴋᴀɴ ʙᴇʀᴛᴀɴʏᴀ ᴋᴇ : [ʏᴀɴᴢᴢ](https://t.me/BotMr07)
+1. ᴀᴘᴀʙɪʟᴀ ʙᴏᴛ ʏᴀɴɢ ᴀɴᴅᴀ ɪɴɢɪɴᴋᴀɴ ᴛɪᴅᴀᴋ ᴀᴅᴀ ꜱɪʟᴀʜᴋᴀɴ ʙᴇʀᴛᴀɴʏᴀ ᴋᴇ : [ᴋᴇɴᴢᴢ](https://t.me/knzdluuu)
 
 2. ᴄᴀᴛᴀᴛᴀɴ ʜᴇʀᴏᴋᴜ ʀᴀᴡᴀɴ sᴜsᴘᴇɴ ᴊᴀᴅɪ sᴀʏᴀ ᴅᴇᴘʟᴏʏ ᴅɪ ᴠᴘs
 
-3. sɪʟᴀʜᴋᴀɴ ʜᴜʙᴜɴɢɪ 🧑🏻‍💻[ʏᴀɴᴢᴢ](https://t.me/BotMr07) ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ / ᴍᴇɴᴀɴʏᴀᴋᴀɴ ᴄᴏɴᴛᴏʜ ʙᴏᴛ
+3. sɪʟᴀʜᴋᴀɴ ʜᴜʙᴜɴɢɪ 🧑🏻‍💻[ᴋᴇɴᴢᴢ](https://t.me/knzdluuu) ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ / ᴍᴇɴᴀɴʏᴀᴋᴀɴ ᴄᴏɴᴛᴏʜ ʙᴏᴛ
 
 𝗦𝗘𝗞𝗜𝗔𝗡 𝗧𝗘𝗥𝗜𝗠𝗔 𝗞𝗔𝗦𝗜𝗛 𝗕𝗔𝗡𝗬𝗔𝗞 🙏
 """,
